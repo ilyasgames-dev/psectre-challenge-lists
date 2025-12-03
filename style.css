@@ -1,7 +1,7 @@
 /* Global */
 body {
   font-family: 'Inter', Arial, sans-serif;
-  background: ##32a864;
+  background: #32a864;
   color: #e5e5e5;
   margin: 0;
   padding: 0;
@@ -136,4 +136,5 @@ details li {
   font-size: 0.9rem;
   color: #ccc;
 }
+
 
