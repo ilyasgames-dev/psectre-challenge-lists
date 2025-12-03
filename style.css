@@ -14,17 +14,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #ff4444;
+  border-bottom: 2px solid #32a864;
 }
 
 header h1 {
   margin: 0;
-  color: #ff4444;
+  color: #32a864;
   font-size: 1.8rem;
 }
 
 .submit-btn {
-  background: #ff4444;
+  background: #32a864;
   color: #fff;
   padding: 10px 18px;
   border-radius: 6px;
@@ -34,7 +34,7 @@ header h1 {
 }
 
 .submit-btn:hover {
-  background: #ff6666;
+  background: #32a864;
 }
 
 /* Container */
@@ -136,5 +136,6 @@ details li {
   font-size: 0.9rem;
   color: #ccc;
 }
+
 
 
