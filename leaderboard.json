@@ -4,7 +4,11 @@
     "total": 509,
     "runs": [
       { "name": "Psectre Chall", "points": 96, "note": "Second Victor" },
-      { "name": "Psectre Diablo X", "points": 88, "note": "First Victor" }
+      { "name": "Psectre (Blu)", "points": 84, "note": "Verified" },
+      { "name": "Psectre (JustaSpoon)", "points": 91, "note": "Verified" },
+      { "name": "Psectre Chamber", "points": 76, "note": "First Victor" },
+      { "name": "Psectre Diablo X", "points": 88, "note": "First Victor" },
+      { "name": "Psectre Space II", "points": 74, "note": "First Victor" }
     ]
   },
   {
@@ -12,7 +16,34 @@
     "total": 498,
     "runs": [
       { "name": "Psectre (JustaSpoon)", "points": 91, "note": "First Victor" },
-      { "name": "Psectreisms", "points": 86, "note": "First Victor" }
+      { "name": "Psectrerorysmics", "points": 89, "note": "First Victor" },
+      { "name": "Psectre Diablo X", "points": 88, "note": "Second Victor" },
+      { "name": "Psectreisms", "points": 86, "note": "First Victor" },
+      { "name": "Psectre (Blu)", "points": 84, "note": "Second Victor" },
+      { "name": "Psectre Chamber", "points": 76, "note": "Second Victor" }
+    ]
+  },
+  {
+    "name": "Cric",
+    "total": 472,
+    "runs": [
+      { "name": "Psectre Infinity", "points": 100, "note": "Verified" },
+      { "name": "Psectre Chall", "points": 96, "note": "First Victor" },
+      { "name": "Psectre Redux", "points": 93, "note": "First Victor" },
+      { "name": "Psectredeluxepremium", "points": 92, "note": "First Victor" },
+      { "name": "Psectre (JustaSpoon)", "points": 91, "note": "Second Victor" }
+    ]
+  },
+  {
+    "name": "Waleed",
+    "total": 446,
+    "runs": [
+      { "name": "Psectre Redux", "points": 93, "note": "First Victor" },
+      { "name": "Psectrestep", "points": 90, "note": "Verified" },
+      { "name": "Psectrefinale", "points": 89, "note": "First Victor" },
+      { "name": "Psectrerorysmics", "points": 89, "note": "Verified" },
+      { "name": "Psectre Diablo X", "points": 88, "note": "Verified" },
+      { "name": "Psectreisms", "points": 86, "note": "Verified" },
+      { "name": "Psectre Space II", "points": 74, "note": "Verified" }
     ]
   }
-]
