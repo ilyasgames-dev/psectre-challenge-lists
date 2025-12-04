@@ -2,14 +2,14 @@
 body {
   font-family: 'Inter', Arial, sans-serif;
   background: #32a864;
-  color: #e5e5e5;
+  color: #00e3b9;
   margin: 0;
   padding: 0;
 }
 
 /* Header */
 header {
-  background: #1a1a1a;
+  background: #4f00c4;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -136,6 +136,7 @@ details li {
   font-size: 0.9rem;
   color: #ccc;
 }
+
 
 
 
