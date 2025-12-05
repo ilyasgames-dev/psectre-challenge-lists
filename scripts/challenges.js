@@ -1,34 +1,29 @@
-let challengesData = [];
+async function loadLeaderboard() {
+  try {
+    const res = await fetch('leaderboard.json');
+    if (!res.ok) throw new Error("Failed to load leaderboard.json");
+    const data = await res.json();
 
-async function loadChallenges() {
-  const res = await fetch('challenges.json');
-  challengesData = await res.json();
-  renderChallenges(challengesData);
-}
+    const container = document.getElementById('leaderboard');
+    if (!container) throw new Error("Leaderboard container not found");
 
-function renderChallenges(data) {
-  data.sort((a, b) => b.points - a.points);
-  data.forEach((c, i) => c.rank = i + 1);
-
-  const container = document.getElementById('challenges');
-  container.innerHTML = data.map(c => {
-    const isNew = (Date.now() - new Date(c.dateAdded)) / (1000*60*60*24) < 7;
-    return `
-      <article class="level">
-        <img src="${c.thumbnail}" alt="${c.name}"/>
-        <div class="info">
-          <h2>${c.rank}. ${c.name} 
-            <span class="points">(${c.points} Points)</span>
-            ${isNew ? '<span class="new">NEW</span>' : ''}
-          </h2>
-          <p><strong>ID:</strong> ${c.id}</p>
-          <p><strong>Verified by:</strong> ${c.verifier}</p>
-          <p><strong>First Victor:</strong> ${c.firstVictor || '—'}</p>
-          <p><strong>Second Victor:</strong> ${c.secondVictor || '—'}</p>
-        </div>
-      </article>
+    container.classList.add('leaderboard');
+    container.innerHTML = `
+      <h2>Leaderboard</h2>
+      ${data.map(player => `
+        <details>
+          <summary>${player.name} — ${player.total} Points</summary>
+          <ul>
+            ${player.runs.map(run => `
+              <li>${run.name} — ${run.points} pts (${run.note})</li>
+            `).join('')}
+          </ul>
+        </details>
+      `).join('')}
     `;
-  }).join('');
+  } catch (err) {
+    console.error("Error loading leaderboard:", err);
+  }
 }
 
-loadChallenges();
+loadLeaderboard();
