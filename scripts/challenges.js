@@ -1,20 +1,32 @@
-async function loadLeaderboard() {
-  const res = await fetch('leaderboard.json');
-  const data = await res.json();
+async function loadChallenges() {
+  try {
+    const res = await fetch('challenges.json');
+    if (!res.ok) throw new Error("Failed to load challenges.json");
+    const data = await res.json();
 
-  const container = document.getElementById('leaderboard');
-  container.classList.add('leaderboard');
-  container.innerHTML = `
-    <h2>Leaderboard</h2>
-    ${data.map(p => `
-      <details>
-        <summary>${p.name} — ${p.total} Points</summary>
-        <ul>
-          ${p.runs.map(r => `<li>${r.name} — ${r.points} pts (${r.note})</li>`).join('')}
-        </ul>
-      </details>
-    `).join('')}
-  `;
+    const container = document.getElementById('challenges');
+    if (!container) throw new Error("Challenges container not found");
+
+    container.classList.add('challenges');
+    container.innerHTML = `
+      <h2>Challenges</h2>
+      <div class="challenge-list">
+        ${data.map(ch => `
+          <div class="challenge">
+            <img src="${ch.thumbnail}" alt="${ch.name} thumbnail">
+            <h3>${ch.name}</h3>
+            <p><strong>Points:</strong> ${ch.points}</p>
+            <p><strong>Verifier:</strong> ${ch.verifier}</p>
+            <p><strong>First Victor:</strong> ${ch.firstVictor ?? '—'}</p>
+            <p><strong>Second Victor:</strong> ${ch.secondVictor ?? '—'}</p>
+            <p><strong>Date Added:</strong> ${ch.dateAdded}</p>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  } catch (err) {
+    console.error("Error loading challenges:", err);
+  }
 }
 
-loadLeaderboard();
+loadChallenges();
