@@ -132,7 +132,7 @@ header h1 {
 details {
   margin-bottom: 12px;
   background: #262626;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 12px;
 }
 
@@ -204,6 +204,7 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
