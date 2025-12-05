@@ -152,3 +152,41 @@ details li {
   font-size: 0.9rem;
   color: #ccc;
 }
+.challenge-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.challenge {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+  color: #eee;
+}
+
+.challenge:hover {
+  transform: translateY(-4px);
+}
+
+.challenge img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.challenge h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #00ffcc;
+}
+
+.challenge p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
