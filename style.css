@@ -152,14 +152,27 @@ details li {
   font-size: 0.9rem;
   color: #ccc;
 }
+#challenges {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#challenges h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #00ffcc;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
 .challenge-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
-  padding: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding-left: 0.5rem;
 }
+
 
 .challenge {
   background: #1e1e1e;
@@ -191,5 +204,6 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
