@@ -168,7 +168,7 @@ details li {
 
 .challenge-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1rem;
   padding-left: 0.5rem;
 }
@@ -204,6 +204,7 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
