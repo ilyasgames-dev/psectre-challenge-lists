@@ -18,5 +18,125 @@
     "secondVictor": "Idk",
     "thumbnail": "https://img.youtube.com/vi/kgqNPuZPl9Y/0.jpg",
     "dateAdded": "2025-11-20"
+  },
+  {
+    "name": "Psectre Chall",
+    "points": 96,
+    "id": "118181900",
+    "verifier": "Blu",
+    "firstVictor": "Cric",
+    "secondVictor": "Blu",
+    "thumbnail": "https://img.youtube.com/vi/abc123/0.jpg",
+    "dateAdded": "2025-11-15"
+  },
+  {
+    "name": "Psectre (Blu)",
+    "points": 84,
+    "id": "118181901",
+    "verifier": "Blu",
+    "firstVictor": "Waleed",
+    "secondVictor": "Ilyas",
+    "thumbnail": "https://img.youtube.com/vi/def456/0.jpg",
+    "dateAdded": "2025-11-10"
+  },
+  {
+    "name": "Psectre (JustaSpoon)",
+    "points": 91,
+    "id": "118181902",
+    "verifier": "JustaSpoon",
+    "firstVictor": "Ilyas",
+    "secondVictor": "Cric",
+    "thumbnail": "https://img.youtube.com/vi/ghi789/0.jpg",
+    "dateAdded": "2025-11-08"
+  },
+  {
+    "name": "Psectre Chamber",
+    "points": 76,
+    "id": "118181903",
+    "verifier": "Unknown",
+    "firstVictor": "Blu",
+    "secondVictor": "Ilyas",
+    "thumbnail": "https://img.youtube.com/vi/jkl012/0.jpg",
+    "dateAdded": "2025-11-06"
+  },
+  {
+    "name": "Psectre Diablo X",
+    "points": 88,
+    "id": "118181904",
+    "verifier": "Unknown",
+    "firstVictor": "Blu",
+    "secondVictor": "Ilyas",
+    "thumbnail": "https://img.youtube.com/vi/mno345/0.jpg",
+    "dateAdded": "2025-11-04"
+  },
+  {
+    "name": "Psectre Space II",
+    "points": 74,
+    "id": "118181905",
+    "verifier": "Unknown",
+    "firstVictor": "Blu",
+    "secondVictor": "Waleed",
+    "thumbnail": "https://img.youtube.com/vi/pqr678/0.jpg",
+    "dateAdded": "2025-11-02"
+  },
+  {
+    "name": "Psectrerorysmics",
+    "points": 89,
+    "id": "118181906",
+    "verifier": "Unknown",
+    "firstVictor": "Ilyas",
+    "secondVictor": "Waleed",
+    "thumbnail": "https://img.youtube.com/vi/stu901/0.jpg",
+    "dateAdded": "2025-10-30"
+  },
+  {
+    "name": "Psectreisms",
+    "points": 86,
+    "id": "118181907",
+    "verifier": "Unknown",
+    "firstVictor": "Ilyas",
+    "secondVictor": "Waleed",
+    "thumbnail": "https://img.youtube.com/vi/vwx234/0.jpg",
+    "dateAdded": "2025-10-28"
+  },
+  {
+    "name": "Psectre Redux",
+    "points": 93,
+    "id": "118181908",
+    "verifier": "Cric",
+    "firstVictor": "Cric",
+    "secondVictor": "Waleed",
+    "thumbnail": "https://img.youtube.com/vi/yz1234/0.jpg",
+    "dateAdded": "2025-10-25"
+  },
+  {
+    "name": "Psectredeluxepremium",
+    "points": 92,
+    "id": "118181909",
+    "verifier": "Cric",
+    "firstVictor": "Cric",
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/abc567/0.jpg",
+    "dateAdded": "2025-10-22"
+  },
+  {
+    "name": "Psectrestep",
+    "points": 90,
+    "id": "118181910",
+    "verifier": "Waleed",
+    "firstVictor": "Waleed",
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/def890/0.jpg",
+    "dateAdded": "2025-10-20"
+  },
+  {
+    "name": "Psectrefinale",
+    "points": 89,
+    "id": "118181911",
+    "verifier": "Waleed",
+    "firstVictor": "Waleed",
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/ghi321/0.jpg",
+    "dateAdded": "2025-10-18"
   }
 ]
