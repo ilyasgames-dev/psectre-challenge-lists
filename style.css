@@ -1,6 +1,6 @@
 /* Global */
 body {
-  background: #32a864; /* green background */
+  background: #006f37d4; /* green background */
   color: #00e3b9;      /* teal text */
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-  background: #4f00c4; /* purple header */
+  background: #000000; /* black header */
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -203,6 +203,7 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
