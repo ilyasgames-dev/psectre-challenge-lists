@@ -1,6 +1,5 @@
 /* Global */
 body {
-  font-family: 'Inter', Arial, sans-serif;
   background: #32a864; /* green background */
   color: #00e3b9;      /* teal text */
   margin: 0;
@@ -204,6 +203,7 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
