@@ -1,6 +1,6 @@
 /* Global */
 body {
-  background: #006f37d4; /* green background */
+  background: #ffc990d4; /* green background */
   color: #00e3b9;      /* teal text */
   margin: 0;
   padding: 0;
@@ -152,15 +152,15 @@ details li {
   color: #ccc;
 }
 #challenges {
-  max-width: 935px;
+  max-width: 1162px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
 }
 
 #challenges h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #00ffcc;
+  color: ##000000;
   text-align: center;
 }
 
@@ -196,13 +196,14 @@ details li {
 .challenge h3 {
   margin: 0.4rem 0;
   font-size: 1.1rem;
-  color: #00ffcc;
+  color: #f9ff00eb;
 }
 
 .challenge p {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
