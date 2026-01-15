@@ -168,7 +168,7 @@ details li {
 .challenge-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 3.5rem;
   justify-items: center;
 }
 
@@ -204,6 +204,7 @@ details li {
   margin: 0.2rem 0;
   line-height: 1.3;
 }
+
 
 
 
