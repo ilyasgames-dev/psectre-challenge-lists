@@ -23,7 +23,7 @@
     "name": "Psectre Chall",
     "points": 96,
     "ID": "118181900",
-    "verifier": "Blu",
+    "verifier": "Matthijsgd",
     "firstVictor": "Cric",
     "secondVictor": "Blu",
     "thumbnail": "https://img.youtube.com/vi/abc123/0.jpg",
@@ -40,7 +40,7 @@
     "dateAdded": "2025-11-10"
   },
   {
-    "name": "Psectre Redux)",
+    "name": "Psectre Redux",
     "points": 93,
     "ID": "125141439",
     "verifier": "Landron",
@@ -140,5 +140,6 @@
     "dateAdded": "2025-10-18"
   }
 ]
+
 
 
