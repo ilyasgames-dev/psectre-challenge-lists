@@ -4,6 +4,9 @@ async function loadChallenges() {
     if (!res.ok) throw new Error("Failed to load challenges.json");
     const data = await res.json();
 
+    // ⭐ SORT BY POINTS (highest → lowest)
+    data.sort((a, b) => b.points - a.points);
+
     const container = document.getElementById('challenges');
     if (!container) throw new Error("Challenges container not found");
 
@@ -11,10 +14,13 @@ async function loadChallenges() {
     container.innerHTML = `
       <h2>Challenges</h2>
       <div class="challenge-list">
-        ${data.map(ch => `
+        ${data.map((ch, index) => `
           <div class="challenge">
             <img src="${ch.thumbnail}" alt="${ch.name} thumbnail">
-            <h3>${ch.name}</h3>
+            
+            <!-- ⭐ Add numbering here -->
+            <h3>#${index + 1} — ${ch.name}</h3>
+
             <p><strong>Points:</strong> ${ch.points}</p>
             <p><strong>Verifier:</strong> ${ch.verifier}</p>
             <p><strong>First Victor:</strong> ${ch.firstVictor ?? '—'}</p>
