@@ -22,7 +22,7 @@ async function loadChallenges() {
             <h3>#${index + 1} — ${ch.name}</h3>
 
             <p><strong>Points:</strong> ${ch.points}</p>
-            <p><strong>ID:</strong> ${ch.ID:}</p>
+            <p><strong>ID:</strong> ${ch.ID}</p>
             <p><strong>Verifier:</strong> ${ch.verifier}</p>
             <p><strong>First Victor:</strong> ${ch.firstVictor ?? '—'}</p>
             <p><strong>Second Victor:</strong> ${ch.secondVictor ?? '—'}</p>
