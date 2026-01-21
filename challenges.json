@@ -70,6 +70,16 @@
     "dateAdded": "2025-11-06"
   },
   {
+    "name": "psectre the hedgehog",
+    "points": 92,
+    "ID": "127328321",
+    "verifier": "Walleed",
+    "firstVictor": null,
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/jkl012/0.jpg",
+    "dateAdded": "2025-11-06"
+  },
+  {
     "name": "Psectre (JustaSpoon)",
     "points": 91,
     "ID": "117651014",
@@ -150,6 +160,7 @@
     "dateAdded": "2025-10-18"
   }
 ]
+
 
 
 
