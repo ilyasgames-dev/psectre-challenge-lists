@@ -2,7 +2,7 @@
   {
     "name": "Psectre Challenge",
     "points": 102,
-    "id": "118181899",
+    "ID": "118181899",
     "verifier": "Idk",
     "firstVictor": null,
     "secondVictor": null,
@@ -12,7 +12,7 @@
   {
     "name": "Psectre Infinity",
     "points": 100,
-    "id": "117779525",
+    "ID": "117779525",
     "verifier": "Cric",
     "firstVictor": "JessegamingGD",
     "secondVictor": "Idk",
@@ -22,7 +22,7 @@
   {
     "name": "Psectre Chall",
     "points": 96,
-    "id": "118181900",
+    "ID": "118181900",
     "verifier": "Blu",
     "firstVictor": "Cric",
     "secondVictor": "Blu",
@@ -32,7 +32,7 @@
   {
     "name": "Psectre never clear",
     "points": 94,
-    "id": "118181899",
+    "ID": "118181899",
     "verifier": "Landron",
     "firstVictor": null,
     "secondVictor": null,
@@ -42,7 +42,7 @@
   {
     "name": "Psectre Redux)",
     "points": 93,
-    "id": "125141439",
+    "ID": "125141439",
     "verifier": "Landron",
     "firstVictor": "Waleed",
     "secondVictor": "Cric",
@@ -52,7 +52,7 @@
   {
     "name": "Psectredeluxepremium",
     "points": 92,
-    "id": "118383237",
+    "ID": "118383237",
     "verifier": "Skye",
     "firstVictor": "Cric",
     "secondVictor": null,
@@ -62,7 +62,7 @@
   {
     "name": "Psectre (JustaSpoon)",
     "points": 91,
-    "id": "117651014",
+    "ID": "117651014",
     "verifier": "Blu",
     "firstVictor": "Ilyas",
     "secondVictor": "Cric",
@@ -72,7 +72,7 @@
   {
     "name": "Psectrestep",
     "points": 90,
-    "id": "125133845",
+    "ID": "125133845",
     "verifier": "Waleed",
     "firstVictor": "Landron",
     "secondVictor": "Noyo",
@@ -82,7 +82,7 @@
   {
     "name": "Psectrerorysmics",
     "points": 89,
-    "id": "118181906",
+    "ID": "118181906",
     "verifier": "Waleed",
     "firstVictor": "Ilyas",
     "secondVictor": null,
@@ -92,7 +92,7 @@
   {
     "name": "Psectre Diablo X",
     "points": 88,
-    "id": "124983069",
+    "ID": "124983069",
     "verifier": "Waleed",
     "firstVictor": "Blu",
     "secondVictor": "Ilyas",
@@ -102,7 +102,7 @@
   {
     "name": "Psectreisms",
     "points": 86,
-    "id": "117651085",
+    "ID": "117651085",
     "verifier": "Waleed",
     "firstVictor": "Ilyas",
     "secondVictor": "Skye",
@@ -112,7 +112,7 @@
   {
     "name": "Psectre (Blu)",
     "points": 84,
-    "id": "117651085",
+    "ID": "117651085",
     "verifier": "Blu",
     "firstVictor": "Jessegaminggd",
     "secondVictor": "ilyas",
@@ -122,7 +122,7 @@
   {
     "name": "Psectre Chamber",
     "points": 76,
-    "id": "117756153",
+    "ID": "117756153",
     "verifier": "Justaspoon",
     "firstVictor": "Blu",
     "secondVictor": "Ilyas" ,
@@ -132,7 +132,7 @@
   {
     "name": "Psectre Space II",
     "points": 74,
-    "id": "125214929",
+    "ID": "125214929",
     "verifier": "Waleed",
     "firstVictor": "Blu",
     "secondVictor": "Landron",
@@ -140,4 +140,5 @@
     "dateAdded": "2025-10-18"
   }
 ]
+
 
