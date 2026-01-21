@@ -1,6 +1,6 @@
 /* Global */
 body {
-  background: #ffc990d4; /* green background */
+  background: #00417bd4; /* green background */
   color: #00e3b9;      /* teal text */
   margin: 0;
   padding: 0;
@@ -219,6 +219,7 @@ details li {
   background: #6a00ff; /* brighter purple hover */
   transform: translateY(-2px);
 }
+
 
 
 
