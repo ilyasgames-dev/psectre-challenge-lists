@@ -196,7 +196,7 @@ details li {
 .challenge h3 {
   margin: 0.4rem 0;
   font-size: 1.1rem;
-  color: #f9ff00eb;
+  color: #32a864;
 }
 
 .challenge p {
@@ -219,6 +219,7 @@ details li {
   background: #6a00ff; /* brighter purple hover */
   transform: translateY(-2px);
 }
+
 
 
 
