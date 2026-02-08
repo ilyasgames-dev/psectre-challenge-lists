@@ -1,4 +1,14 @@
 [
+   {
+    "name": "True Psectre",
+    "points": 105,
+    "ID": "118181899",
+    "verifier": "Justaspoon",
+    "firstVictor": null,
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/splM4KWNmQU/0.jpg",
+    "dateAdded": "8-2-2026"
+  },
   {
     "name": "Psectre Challenge",
     "points": 102,
@@ -160,6 +170,7 @@
     "dateAdded": "2025-10-18"
   }
 ]
+
 
 
 
