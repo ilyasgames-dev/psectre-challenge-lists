@@ -1,14 +1,14 @@
 [
-   {
-    "name": "True Psectre",
-    "points": 105,
-    "ID": "118181899",
-    "verifier": "Justaspoon",
-    "firstVictor": null,
-    "secondVictor": null,
-    "thumbnail": "https://img.youtube.com/vi/splM4KWNmQU/0.jpg",
-    "dateAdded": "8-2-2026"
-  },
+  {
+    "name": "Psectre Space II",
+    "points": 74,
+    "ID": "125214929",
+    "verifier": "Waleed",
+    "firstVictor": "Blu",
+    "secondVictor": "Landron",
+    "thumbnail": "https://img.youtube.com/vi/ghi321/0.jpg",
+    "dateAdded": "2025-10-18"
+  }
   {
     "name": "Psectre Challenge",
     "points": 102,
@@ -179,16 +179,16 @@
     "thumbnail": "https://img.youtube.com/vi/def890/0.jpg",
     "dateAdded": "2025-10-20"
   },
-  {
-    "name": "Psectre Space II",
-    "points": 74,
-    "ID": "125214929",
-    "verifier": "Waleed",
-    "firstVictor": "Blu",
-    "secondVictor": "Landron",
-    "thumbnail": "https://img.youtube.com/vi/ghi321/0.jpg",
-    "dateAdded": "2025-10-18"
-  }
+   {
+    "name": "True Psectre",
+    "points": 105,
+    "ID": "118181899",
+    "verifier": "Justaspoon",
+    "firstVictor": null,
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/splM4KWNmQU/0.jpg",
+    "dateAdded": "8-2-2026"
+  },
 ]
 
 
