@@ -49,9 +49,19 @@
     "thumbnail": "https://img.youtube.com/vi/kgqNPuZPl9Y/0.jpg",
     "dateAdded": "2025-11-20"
   },
-  {
-    "name": "Psectre Chall",
+    {   
+    "name": "psectre confusion",
     "points": 96,
+    "ID": "118181900",
+    "verifier": "Ilyasgamesgd",
+    "firstVictor": null,
+    "secondVictor": null,
+    "thumbnail": "https://img.youtube.com/vi/abc123/0.jpg",
+    "dateAdded": "2025-11-15"
+  },
+   {   
+    "name": "Psectre Chall",
+    "points": 95,
     "ID": "118181900",
     "verifier": "Matthijsgd",
     "firstVictor": "Cric",
